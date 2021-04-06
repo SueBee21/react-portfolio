@@ -25,7 +25,7 @@ function Navbar() {
             <a className="nav-link" href="#">
               About
             </a>
-            <a className="nav-link" href="#">
+            <a className="nav-link" href="../Pages/contact.js"> 
               Contact
             </a>
           </div>

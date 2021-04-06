@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../Components/Header/index";
 import Navbar from "../Components/Navbar/index";
 
-function myFunction() {
+function myHomepage() {
   return (
     <div>
       <Header />
@@ -12,4 +12,4 @@ function myFunction() {
   );
 }
 
-export default myFunction;
+export default myHomepage;

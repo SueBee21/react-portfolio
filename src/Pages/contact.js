@@ -1,13 +1,16 @@
 import React from "react";
+import Header from "../Components/Header/index";
+import Navbar from "../Components/Navbar/index";
 
 
-function myFunction() {
-    return (
-    <div>
-
- <p>contact info to be added here</p>
-    </div>
-    );
-  }
-  
-  export default myFunction;
+function myContact() {
+   return (
+     <div>
+       <Header />
+       <Navbar />
+       <p> Contact info here.</p>
+     </div>
+   );
+ }
+ 
+ export default myContact;
