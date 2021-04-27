@@ -5,8 +5,6 @@ import contact from "./Pages/contact";
 import portfolio from "./Pages/portfolio";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import './App.css';
-// import "./index.css"
-
 
 function App() {
   return (
