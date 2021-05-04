@@ -7,7 +7,7 @@ function myHomepage() {
     <div>
       <Header />
       <Navbar />
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vitae velit sed felis accumsan tristique. Vestibulum eu mauris eros. Morbi faucibus erat id ante tincidunt, nec ornare lacus convallis. Nam in lectus non dui elementum lobortis in aliquam arcu. Nulla mollis laoreet nulla, sodales congue dui aliquet in. Nulla ultricies eros nulla, eu tincidunt elit ultricies non. Nam efficitur risus tellus, gravida rhoncus mi dictum quis. Donec at tempor orci, non egestas ligula. Praesent nec mi accumsan, ultricies nunc nec, molestie urna. Cras consectetur sapien ac ante ultrices, nec volutpat sapien ornare. In hac habitasse platea dictumst. Phasellus ullamcorper nibh sed porttitor suscipit. Aliquam bibendum tellus sed tempus semper. Vestibulum dignissim a est eu condimentum. Suspendisse cursus ligula eu malesuada sodales.</p>
+      <p>After over 15 years working in healthcare and community non-profit organizations as a clinical social worker, I am excited to take my problem-solving skills into the world of tech. I am a January 2021 graduate of University of Connecticut's Full Stack Developer Certificate Bootcamp. I love the endless creative potential of programming languages, and am passionate about applying my expertise in psychology and human behavior to building applications that provide ease and accessability in user experience. I'm currently excited to be diving deeper into CSS, JavaScript, React and MySQL.</p>
     </div>
   );
 }
