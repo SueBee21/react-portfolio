@@ -3,25 +3,25 @@ import home from "./Pages/home";
 import about from "./Pages/about";
 import contact from "./Pages/contact";
 import portfolio from "./Pages/portfolio";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import './App.css';
+import { BrowserRouter, Route, Switch, } from "react-router-dom";
+// import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Navigation from './Navigation/index.js';
+import "./App.css";
 
-function App() {
-  return (
-    <div>
-      <Router>
-      <Route exact path="/" component={home} />
-          <Route exact path="/contact" component={contact} />
-          <Route exact path="/portfolio" component={portfolio} />
-          <Route exact path="/about" component={about} /> 
-      </Router>
+function App ()  {
+    return (      
+       <BrowserRouter>
+        <div>
+          <Navigation />
+            <Switch>
+             <Route path="/" component={home} exact/>
+             <Route path="/about" component={about}/>
+             <Route path="/contact" component={contact}/>
+           </Switch>
+        </div> 
+      </BrowserRouter>
+    );
+  }
 
-
-    </div>
-
-  );
-}
-
+ 
 export default App;
-
-

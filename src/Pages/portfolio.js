@@ -1,13 +1,15 @@
 import React from "react";
+import Header from "../Components/Header/index";
+import Navbar from "../Components/Navbar/index";
 
-
-function myFunction() {
-    return (
+function Portfolio() {
+  return (
     <div>
-<p>content</p>
- 
+      <Header />
+      <Navbar />
+      <p>content</p>
     </div>
-    );
-  }
-  
-  export default myFunction;
+  );
+}
+
+export default Portfolio;
