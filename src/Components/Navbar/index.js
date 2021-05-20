@@ -1,4 +1,5 @@
 import React from "react";
+
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -21,9 +22,6 @@ function Navbar() {
           <div className="navbar-nav">
             <a className="nav-link active" aria-current="page" href="../portfolio.js">
               Portfolio
-            </a>
-            <a className="nav-link" href="../Pages/about.js">
-              About
             </a>
             <a className="nav-link" href="../Pages/contact.js"> 
               Contact
