@@ -3,7 +3,6 @@ import home from "./Pages/home";
 import contact from "./Pages/contact";
 import portfolio from "./Pages/portfolio";
 import { BrowserRouter, Route, Switch, } from "react-router-dom";
-// import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navigation from './Navigation/index.js';
 import "./App.css";
 
