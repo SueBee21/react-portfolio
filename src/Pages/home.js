@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header/index";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
+import Image from "react-bootstrap/Image";
 
 function myHomepage() {
   return (
@@ -11,8 +12,8 @@ function myHomepage() {
           <Col>
             <Container>
               <Row>
-                <Col xs={6} md={4}>
-                  <Image src="./assets.profile-pic-png" rounded />
+                <Col>
+                  <Image src="./assets/images/profile-pic.png" rounded />
                 </Col>
               </Row>
             </Container>
@@ -29,7 +30,7 @@ function myHomepage() {
               My goal as a developer is to apply my experience in psychology and
               expertise in human behavior to build applications that provide
               ease and accessability in user experience. My current
-              language-of-choice is JavaScript, with plans to learn more. I have
+              language of choice is JavaScript, with plans to learn more. I have
               experience building MERN stack applications.
             </p>
           </Col>
